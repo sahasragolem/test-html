@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Registration
+        </title>
+        <style>
+            form {background-color: black;}
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>REGISTRATON FORM</h1>
+            <form action="#" method="post">
+                <br><br>
+                <input type="text" name="name" placeholder="Full Name">
+                <br><br>
+                <input type="type" name="date" placeholder="Date Of Birth">
+                <br><br>
+                <input type="time" name="time">
+                <br><br>
+                <input type="email" name="email" placeholder="Email Address">
+                <br><br>
+                <input type="password" name="password" placeholder="Password">
+                <br><br>
+                <input type="radio" name="gender" value="Male" required>Male
+                <input type="radio" name="gender" value="Female" required>Female
+                <br><br>
+                <select name="branch[]" multiple size="3" required>
+                    <option value="ECE">ECE</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="AI&ML">AI&ML</option>
+                    <option value="CSD">CSD</option>
+                    <option value="CSC">CSC</option>
+                    <option value="DS">DS</option>
+                </select>
+                <br><br>
+                <input type="file" name="file[]" multiple required>
+                <br><br>
+                <textarea name="address" cols="7" rows="3" placeholder="Enter your address" required></textarea>
+                <br><br>
+                <input type="number" name="Mobilenumber" placeholder="Enter your Mobile Number" required>
+                <br><br>
+                <input type="address" name="address" placeholder="Address">
+                <br><br>
+                <input type="file" name="profile pic">
+                <br><br>
+                <input type="button" value="Register">
+                <br><br>
+
+            </form>
+        </center>
+    </body>
+</html>

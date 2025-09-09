@@ -1,0 +1,65 @@
+body
+{
+    background-color: black;
+    margin: 0%;
+    height: 100vh;
+    overflow: hidden;
+}
+.moon
+{
+    position: absolute;
+    top: 100px;
+    left: 70%;
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+    background-color:white;
+    box-shadow:0 0 40px 15px rgb(231, 231, 134);
+    animation-duration: 5s;
+    animation-name:shadow-ani;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+} 
+@keyframes shadow-ani{
+    from{box-shadow: 0 0 15px 9px rgb(167, 153, 153);}
+    to{box-shadow: 0 0 16px 25px rgb(150, 144, 144);}
+}   
+.star
+{
+    position: absolute;
+    left: 78%;
+    width: 4px;
+    height:4px;
+    border-radius: 50%;
+    background-color:white;
+    box-shadow:0 0 40px 15px rgb(229, 229, 211);animation-direction: alternate;
+}   
+@keyframes star-ani{
+    from{box-shadow: 0 0 15px 9px rgb(167, 153, 153);}
+    to{box-shadow: 0 0 16px 25px rgb(150, 144, 144);}
+}   
+   #s1{
+    top:50px;left:20%;
+   }
+   #s2{
+    top: 50px;left:30%;
+   }
+   #s3{
+    top:60px;left:10%;
+   }
+   #s3{
+    top:30px;left:60%;
+   }
+   #s4{
+    top:500px;left:10%;
+   }
+   #s5{
+    top:300px;left:80%;
+   }
+   #s6{
+    top:400px;left:50%;
+   }
+   #s7{
+    top:450px;left:20%;
+   }
